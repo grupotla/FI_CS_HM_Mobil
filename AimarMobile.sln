@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "AimarMobile", "AimarMobile.vbdproj", "{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}.Debug.ActiveCfg = Debug|Pocket PC
+		{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}.Debug.Build.0 = Debug|Pocket PC
+		{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}.Debug.Deploy.0 = Debug|Pocket PC
+		{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}.Release.ActiveCfg = Release|Pocket PC
+		{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}.Release.Build.0 = Release|Pocket PC
+		{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,798 @@
+<VisualStudioProject>
+    <EVisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{AB90B6F3-88E0-4CF5-9550-EBF71C5C966C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "rf.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "WMSMobile"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                OutputFileFolder = "\Program Files\Aimar_Mobile"
+                RootNamespace = "Aimar_Mobile"
+                StartupObject = "Aimar_Mobile.frmMainMenu"
+            >
+                <Platform Name = "Pocket PC" />
+                <Config
+                    Name = "Debug|Pocket PC"
+                    BaseAddress = "0"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release|Pocket PC"
+                    BaseAddress = "0"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "vw6|Pocket PC"
+                    BaseAddress = "0"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System"
+                    AssemblyName = "System"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.Windows.Forms.DataGrid"
+                    AssemblyName = "System.Windows.Forms.DataGrid"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "Microsoft.WindowsCE.Forms"
+                    AssemblyName = "Microsoft.WindowsCE.Forms"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "PrinterCE.NetCF"
+                    AssemblyName = "PrinterCE.NetCF"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Design"
+                    AssemblyName = "System.CF.Design"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Design.UI"
+                    AssemblyName = "System.CF.Design.UI"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Windows.Forms"
+                    AssemblyName = "System.CF.Windows.Forms"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Drawing"
+                    AssemblyName = "System.CF.Drawing"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System"
+                    AssemblyName = "System"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Windows.Forms.DataGrid"
+                    AssemblyName = "System.CF.Windows.Forms.DataGrid"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "Microsoft.CF.WindowsCE.Forms"
+                    AssemblyName = "Microsoft.CF.WindowsCE.Forms"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmLogin.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmLogin.resx"
+                    DependentUpon = "frmLogin.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmMainMenu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMainMenu.resx"
+                    DependentUpon = "frmMainMenu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "rf.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Splash.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Splash.resx"
+                    DependentUpon = "Splash.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Include\modGlobal.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Include\PrCE_NetCF.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Inquiries\frmLabels.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Inquiries\frmLabels.resx"
+                    DependentUpon = "frmLabels.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Inquiries\frmLabelsCFS.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Inquiries\frmLabelsCFS.resx"
+                    DependentUpon = "frmLabelsCFS.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Inquiries\frmLocationInv.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Inquiries\frmLocationInv.resx"
+                    DependentUpon = "frmLocationInv.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Inquiries\frmProductInv.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Inquiries\frmProductInv.resx"
+                    DependentUpon = "frmProductInv.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Inquiries\frmStartPickingCFS.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Inquiries\frmStartPickingCFS.resx"
+                    DependentUpon = "frmStartPickingCFS.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturn.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturn.resx"
+                    DependentUpon = "frmArrivalReturn.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnHAME.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnHAME.resx"
+                    DependentUpon = "frmArrivalReturnHAME.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnHAME2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnHAME2.resx"
+                    DependentUpon = "frmArrivalReturnHAME2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnInvoice.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnInvoice.resx"
+                    DependentUpon = "frmArrivalReturnInvoice.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnRoute.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalReturnRoute.resx"
+                    DependentUpon = "frmArrivalReturnRoute.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivals.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivals.resx"
+                    DependentUpon = "frmArrivals.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsCFS.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsCFS.resx"
+                    DependentUpon = "frmArrivalsCFS.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsCombos.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsCombos.resx"
+                    DependentUpon = "frmArrivalsCombos.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsManChange.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsManChange.resx"
+                    DependentUpon = "frmArrivalsManChange.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsManifest.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsManifest.resx"
+                    DependentUpon = "frmArrivalsManifest.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsNonDelivery.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalsNonDelivery.resx"
+                    DependentUpon = "frmArrivalsNonDelivery.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalTransfer1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmArrivalTransfer1.resx"
+                    DependentUpon = "frmArrivalTransfer1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmCheckConfirmTruck.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmCheckConfirmTruck.resx"
+                    DependentUpon = "frmCheckConfirmTruck.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmCheckPicking.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmCheckPicking.resx"
+                    DependentUpon = "frmCheckPicking.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmContar.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmContar.resx"
+                    DependentUpon = "frmContar.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmFixPurchase.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmFixPurchase.resx"
+                    DependentUpon = "frmFixPurchase.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmGeneralTasks.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmGeneralTasks.resx"
+                    DependentUpon = "frmGeneralTasks.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmGoodsIn.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmGoodsIn.resx"
+                    DependentUpon = "frmGoodsIn.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmIni.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmIni.resx"
+                    DependentUpon = "frmIni.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmInit.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmInit.resx"
+                    DependentUpon = "frmInit.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmPickConfirmTarget.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmPickConfirmTarget.resx"
+                    DependentUpon = "frmPickConfirmTarget.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmPicking.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmPicking.resx"
+                    DependentUpon = "frmPicking.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmPickingCFS.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmPickingCFS.resx"
+                    DependentUpon = "frmPickingCFS.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmProductCount.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmProductCount.resx"
+                    DependentUpon = "frmProductCount.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmProductsList.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmProductsList.resx"
+                    DependentUpon = "frmProductsList.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmRelocation.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmRelocation.resx"
+                    DependentUpon = "frmRelocation.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trans\frmRelocationDisc.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trans\frmRelocationDisc.resx"
+                    DependentUpon = "frmRelocationDisc.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web References\Conteos\conteos.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\Conteos\conteos.wsdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\Conteos\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\Conteos\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <Folder
+                    RelPath = "Web References\Conteos\"
+                    WebReferenceUrl = "http://10.10.1.10:81/webservices/trans/conteos.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsArrivals\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsArrivals\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsArrivals\wsArrivals.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsArrivals\wsArrivals.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsArrivals\"
+                    WebReferenceUrl = "http://10.10.1.10:81/WebServices/Trans/wsArrivals.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsArrivalsCFS\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsArrivalsCFS\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsArrivalsCFS\wsArrivalsCFS.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsArrivalsCFS\wsArrivalsCFS.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsArrivalsCFS\"
+                    WebReferenceUrl = "http://10.10.1.10:81/WebServices/Trans/wsArrivalsCFS.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsCommonServices\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsCommonServices\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsCommonServices\wsCommonServices.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsCommonServices\wsCommonServices.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsCommonServices\"
+                    WebReferenceUrl = "http://10.10.1.10:81/WebServices/Common/wsCommonServices.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsGeneralTasks\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsGeneralTasks\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsGeneralTasks\wsGeneralTasks.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsGeneralTasks\wsGeneralTasks.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsGeneralTasks\"
+                    WebReferenceUrl = "http://10.10.1.10:81/WebServices/Trans/wsGeneralTasks.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsLogin\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsLogin\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsLogin\wsLogin.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsLogin\wsLogin.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsLogin\"
+                    WebReferenceUrl = "http://10.10.1.10:81/WebServices/Login/wsLogin.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsManifestArrival\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsManifestArrival\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsManifestArrival\wsManifestArrivals.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsManifestArrival\wsManifestArrivals.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsManifestArrival\"
+                    WebReferenceUrl = "http://10.10.1.10:81/WebServices/Trans/wsManifestArrivals.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsPicking\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsPicking\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsPicking\wsPicking.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsPicking\wsPicking.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsPicking\"
+                    WebReferenceUrl = "http://10.10.1.10:81/webservices/trans/wsPicking.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\wsRelocation\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\wsRelocation\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wsRelocation\wsRelocation.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wsRelocation\wsRelocation.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wsRelocation\"
+                    WebReferenceUrl = "http://10.10.1.10:81/WebServices/Trans/wsRelocation.asmx"
+                    UrlBehavior = "Static"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </EVisualBasic>
+</VisualStudioProject>
+

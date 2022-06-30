@@ -1,0 +1,73 @@
+<VisualStudioProject>
+    <EVisualBasic>
+        <Build>
+            <Settings
+                DeploymentDevice = "Pocket PC 2003 Emulator"
+                ReferencePath = "C:\Documents and Settings\consultor2\My Documents\Visual Studio Projects\AimarMobile\Include\"
+            >
+                <Platform Name = "Pocket PC" />
+                <Config
+                    Name = "Debug|Pocket PC"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "true"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                    SelectedDevice = "Pocket PC 2003 Emulator"
+                    DeploymentPlatform = "Pocket PC"
+                />
+                <Config
+                    Name = "Release|Pocket PC"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "true"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                    SelectedDevice = "Pocket PC 2003 Phone Edition Emulator"
+                    DeploymentPlatform = "Pocket PC"
+                />
+                <Config
+                    Name = "vw6|Pocket PC"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "true"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                    SelectedDevice = "Pocket PC Emulator"
+                    DeploymentPlatform = "Pocket PC"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+        />
+    </EVisualBasic>
+</VisualStudioProject>
+
